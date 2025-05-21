@@ -1,0 +1,18 @@
+{
+    "js": [
+        "js/columnControl.semanticui.js",
+        "js/columnControl.semanticui.min.js",
+        "js/columnControl.semanticui.min.mjs",
+        "js/columnControl.semanticui.mjs"
+    ],
+    "css": [
+        "css/columnControl.semanticui.css",
+        "css/columnControl.semanticui.min.css"
+    ],
+    "types": [
+        "types/columnControl.semanticui.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/ColumnControl",
+    "last-tag": "0.0.1",
+    "last-sync": ""
+}

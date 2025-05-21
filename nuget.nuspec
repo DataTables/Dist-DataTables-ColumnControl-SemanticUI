@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <version>0.0.1</version>
+        <id>datatables.net-columncontrol-se</id>
+        <description>This is ColumnControl for DataTables with styling for [SemanticUI](https://semantic-ui.com/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-ColumnControl-SemanticUI.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>ColumnControl  search  filter  buttons  column visibility  Semantic  SemanticUI  Semantic UI  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-columncontrol" version="0.0.1"/>
+            <dependency id="datatables.net-se" version="2.3.1"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/columnControl.semanticui.js" target="content\Scripts"/>
+        <file src="js/columnControl.semanticui.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/columnControl.semanticui.min.js" target="content\Scripts"/>
+        <file src="js/columnControl.semanticui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/columnControl.semanticui.css" target="content\Content"/>
+        <file src="css/columnControl.semanticui.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/columnControl.semanticui.min.css" target="content\Content"/>
+        <file src="css/columnControl.semanticui.min.css" target="contentFiles\any\any\wwwroot\css"/>
+    </files>
+</package>
+
