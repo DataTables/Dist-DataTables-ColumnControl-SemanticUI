@@ -5,7 +5,7 @@
     "module": "js/columnControl.semanticui.mjs",
     "style": "css/columnControl.semanticui.css",
     "types": "./types/columnControl.semanticui.d.ts",
-    "version": "0.0.1",
+    "version": "0.9.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,21 +14,21 @@
     ],
     "keywords": [
         "ColumnControl",
- "search",
- "filter",
- "buttons",
- "column visibility",
+        "search",
+        "filter",
+        "buttons",
+        "column visibility",
         "Semantic",
- "SemanticUI",
- "Semantic UI",
+        "SemanticUI",
+        "Semantic UI",
         "Datatables",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-columncontrol": "~0.0.1",
-        "datatables.net-se": "^2.3"
+        "datatables.net-columncontrol": "0.9.2",
+        "datatables.net-se": "^2.3.0"
     },
     "moduleType": [
         "globals",
