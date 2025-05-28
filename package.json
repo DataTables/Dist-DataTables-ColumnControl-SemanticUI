@@ -5,7 +5,7 @@
     "module": "js/columnControl.semanticui.mjs",
     "style": "css/columnControl.semanticui.css",
     "types": "./types/columnControl.semanticui.d.ts",
-    "version": "0.9.2",
+    "version": "1.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -27,8 +27,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-columncontrol": "0.9.2",
-        "datatables.net-se": "^2.3.0"
+        "datatables.net-columncontrol": "1.0.0",
+        "datatables.net-se": "^2.3"
     },
     "moduleType": [
         "globals",
