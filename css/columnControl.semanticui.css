@@ -231,6 +231,7 @@ table.dataTable span.dtcc div.dtcc-searchNumber > div select,
 table.dataTable span.dtcc div.dtcc-searchDateTime > div select {
   left: 0;
   z-index: 2;
+  padding: 0;
 }
 table.dataTable span.dtcc div.dtcc-searchNumber > div span.dtcc-search-clear,
 table.dataTable span.dtcc div.dtcc-searchDateTime > div span.dtcc-search-clear {
