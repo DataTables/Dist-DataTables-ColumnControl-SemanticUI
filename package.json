@@ -5,7 +5,7 @@
     "module": "js/columnControl.semanticui.mjs",
     "style": "css/columnControl.semanticui.css",
     "types": "./types/columnControl.semanticui.d.ts",
-    "version": "2.0.0-beta.1",
+    "version": "2.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -27,8 +27,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-columncontrol": "2.0.0-beta.1",
-        "datatables.net-se": "3.0.0-0"
+        "datatables.net-columncontrol": "2.0.0",
+        "datatables.net-se": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
