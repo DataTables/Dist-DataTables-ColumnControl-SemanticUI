@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-columncontrol-se",
     "description": "ColumnControl for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
-    "main": "js/columnControl.semanticui.js",
-    "module": "js/columnControl.semanticui.mjs",
-    "style": "css/columnControl.semanticui.css",
+    "main": "./js/columnControl.semanticui.js",
+    "module": "./js/columnControl.semanticui.mjs",
+    "style": "./css/columnControl.semanticui.css",
     "types": "./types/columnControl.semanticui.d.ts",
     "version": "2.0.2",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "ColumnControl",
@@ -40,5 +39,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/ColumnControl.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/columnControl.semanticui.d.ts",
+            "import": "./js/columnControl.semanticui.mjs",
+            "default": "./js/columnControl.semanticui.mjs",
+            "require": "./js/columnControl.semanticui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/columnControl.semanticui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }

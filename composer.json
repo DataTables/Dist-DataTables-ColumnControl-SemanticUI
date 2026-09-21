@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-columncontrol-se",
-    "description": "ColumnControl for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
+    "description": "ColumnControl for DataTables with styling for SemanticUI",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-ColumnControl-SemanticUI"
