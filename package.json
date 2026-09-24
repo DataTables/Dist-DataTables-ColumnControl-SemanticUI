@@ -43,9 +43,10 @@
     "exports": {
         ".": {
             "types": "./types/columnControl.semanticui.d.ts",
+            "style": "./css/columnControl.semanticui.css",
             "import": "./js/columnControl.semanticui.mjs",
-            "default": "./js/columnControl.semanticui.mjs",
-            "require": "./js/columnControl.semanticui.js"
+            "require": "./js/columnControl.semanticui.js",
+            "default": "./js/columnControl.semanticui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
